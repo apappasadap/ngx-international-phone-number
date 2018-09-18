@@ -1,5 +1,5 @@
 {
-  "name": "ngx-international-phone-number",
+  "name": "ngx-itl-phone-number",
   "version": "0.2.0",
   "scripts": {
     "build": "gulp build",
@@ -14,9 +14,10 @@
     "playground": "concurrently \"npm run build:watch\" \"npm run playground:build\" \"npm run lite\"",
     "test": "tsc && karma start"
   },
+  "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/nikhiln/ngx-international-phone-number"
+    "url": "https://github.com/segux/ngx-international-phone-number"
   },
   "author": {
     "name": "Nikhil Navadiya",
@@ -27,7 +28,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nikhiln/ngx-international-phone-number/issues"
+    "url": "https://github.com/segux/ngx-international-phone-number/issues"
   },
   "devDependencies": {
     "@angular/common": "^4.0.0",
